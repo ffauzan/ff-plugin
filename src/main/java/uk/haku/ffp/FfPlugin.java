@@ -1,11 +1,11 @@
-package xyz.grasscutters.pltm;
+package uk.haku.ffp;
 
 import emu.grasscutter.Grasscutter;
 import emu.grasscutter.plugin.Plugin;
 import emu.grasscutter.server.event.EventHandler;
 import emu.grasscutter.server.event.HandlerPriority;
 import emu.grasscutter.server.event.player.PlayerJoinEvent;
-import xyz.grasscutters.pltm.objects.PluginConfig;
+import uk.haku.ffp.objects.PluginConfig;
 
 import java.io.*;
 import java.util.stream.Collectors;
@@ -14,15 +14,15 @@ import java.util.stream.Collectors;
  * The Grasscutter plugin template.
  * This is the main class for the plugin.
  */
-public final class PluginTemplate extends Plugin {
+public final class FfPlugin extends Plugin {
     /* Turn the plugin into a singleton. */
-    private static PluginTemplate instance;
+    private static FfPlugin instance;
 
     /**
      * Gets the plugin instance.
      * @return A plugin singleton.
      */
-    public static PluginTemplate getInstance() {
+    public static FfPlugin getInstance() {
         return instance;
     }
     

@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>xyz.grasscutters</groupId> <!-- Replace with your groupId -->
-    <artifactId>PluginTemplate</artifactId> <!-- Replace with your plugin name. -->
+    <groupId>uk.haku</groupId> <!-- Replace with your groupId -->
+    <artifactId>FfPlugin</artifactId> <!-- Replace with your plugin name. -->
     <version>1.1.2-dev</version> <!-- The template's version corresponds to the latest API version. -->
 
     <properties>

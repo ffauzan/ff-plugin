@@ -1,4 +1,4 @@
-package xyz.grasscutters.pltm.objects;
+package uk.haku.ffp.objects;
 
 /**
  * A data container for the plugin configuration.

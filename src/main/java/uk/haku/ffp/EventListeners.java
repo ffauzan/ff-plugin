@@ -1,14 +1,14 @@
-package xyz.grasscutters.pltm;
+package uk.haku.ffp;
 
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.server.event.player.PlayerJoinEvent;
-import xyz.grasscutters.pltm.objects.PluginConfig;
+import uk.haku.ffp.objects.PluginConfig;
 
 /**
  * A class containing all event handlers.
  */
 public final class EventListeners {
-    private static final PluginConfig config = PluginTemplate.getInstance().getConfiguration();
+    private static final PluginConfig config = FfPlugin.getInstance().getConfiguration();
     
     /**
      * Called when the player joins the server.
