@@ -1,6 +1,7 @@
 package uk.haku.ffp;
 
 import emu.grasscutter.Grasscutter;
+import emu.grasscutter.command.CommandMap;
 import emu.grasscutter.plugin.Plugin;
 import emu.grasscutter.server.event.EventHandler;
 import emu.grasscutter.server.event.HandlerPriority;
@@ -74,6 +75,8 @@ public final class FfPlugin extends Plugin {
                 .priority(HandlerPriority.LOW)
                 .listener(EventListeners::onJoin)
                 .register();
+
+        CommandMap.getInstance().registerCommand("ffequip", new Equip());
     }
 
     /**
